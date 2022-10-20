@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <h2 class="navigation__title">Jacets</h2>
+      <div class="navigation__container">
+        <div class="navigation__filter">
+          <label class="navigation__label" for="">filtered by</label>
+          <select class="navigation__select" name="" id="">
+            <option value="">all</option>
+            <option value="">2016</option>
+            <option value="">jacet</option>
+            <option value="">roxy</option>
+          </select>
+        </div>
+        <div class="navigation__sort">
+          <label class="navigation__label" for="">sort by</label>
+          <select class="navigation__select" name="" id="">
+            <option value="">feautures</option>
+            <option value="">alphabet</option>
+            <option value="">date</option>
+            <option value="">price</option>
+          </select>
+        </div>
+      </div>
+    </nav>
+    <main class="products">
+      <div class="product">
+        <span class="product__sale">sale</span>
+        <div class="product__img-wrapper">
+          <img
+            class="product__img"
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_180x.jpeg?v=1445623366"
+            alt="brown jacet"
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product_price product_price_special-offer">132$</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img-wrapper">
+          <span class="product__sale"></span>
+          <img
+            class="product__img"
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_180x.jpeg?v=1445623366"
+            alt="brown jacet"
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product_price">132$</h6>
+        </div>
+      </div>
+      <div class="product">
+        <div class="product__img-wrapper">
+          <span class="product__sale"></span>
+          <img
+            class="product__img"
+            src="https://cdn.shopify.com/s/files/1/0938/8938/products/10175100258_1_1264x1800_300_RGB_180x.jpeg?v=1445623366"
+            alt="brown jacet"
+          />
+        </div>
+        <div class="product__info">
+          <h5 class="product__name">Haze Varsity</h5>
+          <h6 class="product_price">132$</h6>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
